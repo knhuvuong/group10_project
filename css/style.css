@@ -888,18 +888,19 @@ a {
 @media (min-width: 1250px) {
     .blog-slider .blog-slider__leftArrow {
         left: -105px;
-        padding: 0 25px 3px 10px
+        padding: 0 7px 3px 51px
     }
 
     .blog-slider .blog-slider__leftArrow::after {
         content: "";
         display: block;
-        width: 100%;
+        width: 50px;
         height: 100%;
         background: #f5f9fc;
         position: absolute;
         top: 0;
         left: 0;
+        margin-left: 45px;
         z-index: -1;
         transition: background .4s ease-out
     }
@@ -925,19 +926,19 @@ a {
 .blog-slider .blog-slider__rightArrow {
     position: absolute;
     top: 22%;
-    right: -12px
+    right: -12px;
 }
 
 @media (min-width: 1250px) {
     .blog-slider .blog-slider__rightArrow {
         right: -105px;
-        padding: 0 25px 3px 20px
+        padding: 0 51px 3px 7px
     }
 
     .blog-slider .blog-slider__rightArrow::after {
         content: "";
         display: block;
-        width: 100%;
+        width: 50%;
         height: 100%;
         background: #f5f9fc;
         position: absolute;
